@@ -1,0 +1,17 @@
+{
+  "name": "signaldesk",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A local-first incident operations console with SQLite persistence and an auditable incident lifecycle.",
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test",
+    "check": "node --check src/server.js && node --check src/store.js && node --check public/app.js"
+  },
+  "license": "MIT"
+}
