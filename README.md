@@ -33,7 +33,7 @@ This is a **working portfolio application**, with a real HTTP API and SQLite per
 Requires **Node.js 24 or newer**. There are no third-party dependencies and no install step.
 
 ```sh
-git clone https://github.com/Aerosuitebr/signaldesk.git
+git clone https://github.com/wellemlyra/signaldesk.git
 cd signaldesk
 npm start
 ```
@@ -107,3 +107,4 @@ Built with AI-assisted implementation and review. The repository documents the b
 ## License
 
 [MIT](LICENSE).
+
